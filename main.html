@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zukunftswerkstatt Bildung - Werbeplakat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to bottom, #4facfe, #00f2fe);
+            color: #fff;
+            height: 100vh;
+            text-align: center;
+        }
+        .plakat {
+            background: rgba(255, 255, 255, 0.9);
+            color: #333;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            width: 80%;
+            max-width: 600px;
+            padding: 20px;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #00b4d8;
+            margin-bottom: 20px;
+        }
+        .slogan {
+            font-size: 1.2rem;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        .kernziele {
+            list-style-type: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .kernziele li {
+            margin: 10px 0;
+            font-size: 1rem;
+        }
+        .call-to-action {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #00b4d8;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            transition: background 0.3s ease;
+            cursor: pointer;
+        }
+        .call-to-action:hover {
+            background: #0077b6;
+        }
+        .info-page {
+            display: none;
+            background: #f9f9f9;
+            color: #333;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow-y: auto;
+            padding: 20px;
+            text-align: left;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .info-page h1 {
+            color: #00b4d8;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .info-page h2 {
+            color: #0077b6;
+            font-size: 1.8rem;
+            margin-top: 20px;
+        }
+        .info-page p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .info-page ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        .info-page ul li {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+        .info-page button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #00b4d8;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .info-page button:hover {
+            background: #0077b6;
+        }
+    </style>
+</head>
+<body>
+    <div class="plakat">
+        <div class="logo">Zukunftswerkstatt Bildung (ZWB)</div>
+        <div class="slogan">"Bildung ist unsere Zukunft – Zukunft ist jetzt."</div>
+        <p>Unser Ziel: Ein modernes, gerechtes und inspirierendes Bildungssystem für alle.</p>
+        <ul class="kernziele">
+            <li>🌟 Individuelle Förderung für jedes Kind</li>
+            <li>💻 Digitale Bildung auf höchstem Niveau</li>
+            <li>📚 Lebenskompetenzen für die Zukunft</li>
+            <li>🤝 Weniger Stress, mehr Freude am Lernen</li>
+        </ul>
+        <button class="call-to-action" onclick="showInfoPage()">Jetzt informieren und Teil der Bewegung werden!</button>
+    </div>
+
+    <div class="info-page" id="infoPage">
+        <h1>Mehr über die Zukunftswerkstatt Bildung (ZWB)</h1>
+        <p>Die Zukunftswerkstatt Bildung (ZWB) setzt sich für ein Bildungssystem ein, das Kinder, Jugendliche und Lehrkräfte optimal unterstützt. Unser Ziel ist es, Bildung neu zu denken und sicherzustellen, dass jede:r die besten Chancen hat, in einer sich wandelnden Welt zu bestehen.</p>
+        <h2>Unsere Kernziele:</h2>
+        <ul>
+            <li><strong>Individuelle Förderung:</strong> Jedes Kind soll die Unterstützung bekommen, die es benötigt. Flexible Lernmodelle passen sich den individuellen Stärken und Schwächen der Schüler:innen an.</li>
+            <li><strong>Digitale Bildung:</strong> Moderne Technologien und Medienkompetenz gehören in jede Schule. Wir statten Schulen aus und sorgen für praxisorientierte digitale Inhalte.</li>
+            <li><strong>Lebenskompetenzen:</strong> Wir integrieren wichtige Themen wie Finanzbildung, Umweltbewusstsein und emotionale Intelligenz in den Unterricht.</li>
+            <li><strong>Lehrerentlastung:</strong> Weniger Bürokratie, bessere Arbeitsbedingungen und Weiterbildungsmöglichkeiten für Lehrkräfte.</li>
+        </ul>
+        <h2>Unsere Wahlversprechen:</h2>
+        <ul>
+            <li>📈 <strong>1 % des BIP zusätzlich in Bildung:</strong> Wir investieren nachhaltig in Schulen, Infrastruktur und Personal.</li>
+            <li>🏫 <strong>Modernisierung aller Schulen bis 2030:</strong> Jede Schule wird digital, barrierefrei und energieeffizient.</li>
+            <li>👩‍🏫 <strong>30 % mehr Lehrkräfte:</strong> Wir schaffen bessere Bedingungen für bestehende Lehrkräfte und gewinnen neue hinzu.</li>
+            <li>📚 <strong>Praktische Inhalte:</strong> Lebensnaher Unterricht statt veralteter Theorie.</li>
+        </ul>
+        <p>Gemeinsam können wir das Bildungssystem revolutionieren und eine bessere Zukunft für kommende Generationen schaffen. Sei Teil der Bewegung!</p>
+        <button onclick="hideInfoPage()">Zurück</button>
+    </div>
+
+    <script>
+        function showInfoPage() {
+            document.getElementById('infoPage').style.display = 'block';
+        }
+
+        function hideInfoPage() {
+            document.getElementById('infoPage').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
