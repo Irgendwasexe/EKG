@@ -1,0 +1,14 @@
+{
+  "imageFolder": "images",
+  "defaultImage": "sample.jpg",
+  "images": [
+    {
+      "name": "Screenshot 2026-06-19 211502.png",
+      "title": "Beispielbild 1"
+    },
+    {
+      "name": "sample-2.jpg",
+      "title": "Beispielbild 2"
+    }
+  ]
+}
